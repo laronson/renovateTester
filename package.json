@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/laronson/renovateTester#readme",
   "dependencies": {
-    "is-odd": "2.0.0"
+    "is-odd": "2.0.0",
+    "lodash": "3.10.1"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
