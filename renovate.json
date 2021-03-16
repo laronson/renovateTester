@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchFiles": ["app1/package.json"],
-      "extends": ["config:base"],
+      "extends": ["config:base"]
     },
     {
       "matchFiles": ["app2/package.json"],
