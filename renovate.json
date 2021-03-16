@@ -2,15 +2,15 @@
   "labels": ["renovate bot"],
   "packageRules": [
     {
-      "matchPaths": ["app1/package.json"],
+      "matchPaths": ["+(app1/package.json)"],
       "extends": ["config:base"]
     },
     {
-      "matchPaths": ["app2/package.json"],
+      "matchPaths": ["+(app2/package.json)"],
       "extends": ["config:base"]
     },
     {
-      "matchPaths": ["app3/package.json"],
+      "matchPaths": ["+(app3/package.json)"],
       "extends": ["config:base"]
     }
   ]
